@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import Big from "./pages/Big/Big";
 import Small from "./pages/Small/Small";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Big />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
